@@ -3,7 +3,7 @@
     "python.testing.pytestEnabled": true,
     "python.formatting.provider": "black",
     "python.languageServer": "Pylance",
-    "python.linting.mypyEnabled": true,
+    "python.linting.mypyEnabled": false,
     "python.analysis.typeCheckingMode": "basic",
     "cSpell.words": [
         "dataloaders",
@@ -11,5 +11,6 @@
         "preorders",
         "undiscounted"
     ],
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true
 }

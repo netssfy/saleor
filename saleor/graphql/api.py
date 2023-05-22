@@ -34,6 +34,7 @@ from .warehouse.schema import (
 )
 from .webhook.schema import WebhookMutations, WebhookQueries
 from .webhook.subscription_types import WEBHOOK_TYPES_MAP, Subscription
+from .bulk_order.schema import BulkOrderQueries
 
 API_PATH = SimpleLazyObject(lambda: reverse("api"))
 
@@ -61,6 +62,7 @@ class Query(
     TranslationQueries,
     WarehouseQueries,
     WebhookQueries,
+    BulkOrderQueries
 ):
     pass
 

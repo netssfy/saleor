@@ -15,6 +15,7 @@ DOC_CATEGORY_SHOP = "Shop"
 DOC_CATEGORY_TAXES = "Taxes"
 DOC_CATEGORY_USERS = "Users"
 DOC_CATEGORY_WEBHOOKS = "Webhooks"
+DOC_CATEGORY_BULK_ORDER = "Bulk Order"
 
 
 # Map models to category names in doc directive.
